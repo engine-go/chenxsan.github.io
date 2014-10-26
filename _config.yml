@@ -1,0 +1,14 @@
+# Site settings
+title: 陈三
+email: chenxsan@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  just another static blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: chenxsan
+github_username:  chenxsan
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 5

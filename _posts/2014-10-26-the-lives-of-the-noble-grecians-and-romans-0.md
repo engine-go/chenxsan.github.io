@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "希腊罗马名人传"
+title: 希腊罗马名人传
 date: 2014-10-26 20:20:30
 categories: diary
 ---

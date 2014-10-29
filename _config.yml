@@ -12,7 +12,7 @@ excerpt_separator: <!-- more -->
 # Build settings
 markdown: kramdown
 highlighter: pygments
-paginate: 3
+paginate: 10
 authors:
   sam:
       display_name: '陈三'

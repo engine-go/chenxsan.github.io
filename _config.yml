@@ -13,3 +13,7 @@ excerpt_separator: <!-- more -->
 markdown: kramdown
 highlighter: pygments
 paginate: 3
+authors:
+  sam:
+      display_name: '陈三'
+      url: 'http://www.zfanw.com/blog/'

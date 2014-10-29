@@ -11,5 +11,10 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-
+    {% if page.previous %} 
+        <a rel="prev" href="{{ page.previous.url }}">&larr; 旧一篇</a>
+    {% endif %}
+    {% if page.next %} 
+        <a rel="next" href="{{ page.next.url }}">新一篇 &rarr;</a>
+    {% endif %}
 </div>

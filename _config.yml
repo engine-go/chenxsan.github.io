@@ -2,7 +2,7 @@
 title: 陈三
 email: chenxsan@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  just another static blog
+  读书笔记 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: chenxsan

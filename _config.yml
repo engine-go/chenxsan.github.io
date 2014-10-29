@@ -7,8 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: chenxsan
 github_username:  chenxsan
+excerpt_separator: <!-- more -->
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
-paginate: 5
+paginate: 3

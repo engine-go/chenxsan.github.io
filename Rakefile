@@ -23,4 +23,5 @@ task :new do
 			file.puts "categories: #{@categories}"
 			file.puts "---"
 	end
+	exec "vi #{@post_name}"
 end

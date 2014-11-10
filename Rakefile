@@ -23,5 +23,6 @@ task :new do
 			file.puts "categories: #{@categories}"
 			file.puts "---"
 	end
+	# 在创建文件后使用 vi 打开
 	exec "vi #{@post_name}"
 end

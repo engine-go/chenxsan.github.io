@@ -14,6 +14,9 @@ task :new do
 	@slug = @slug.downcase.strip.gsub(' ', '-')
 	@date = Time.now.strftime("%F")
 	@post_name = "_posts/#{@date}-#{@slug}.md"
+	if File.exist?(@post_name)
+			abort("文件名已经存在！创建失败")
+	end
 	FileUtils.touch(@post_name)
 	open(@post_name, 'a') do |file|
 			file.puts "---"
@@ -23,6 +26,5 @@ task :new do
 			file.puts "categories: #{@categories}"
 			file.puts "---"
 	end
-	# 在创建文件后使用 vi 打开
 	exec "vi #{@post_name}"
 end

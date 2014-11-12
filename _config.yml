@@ -10,6 +10,7 @@ github_username:  chenxsan
 excerpt_separator: <!-- more -->
 
 # Build settings
+permalink: date
 markdown: kramdown
 highlighter: pygments
 paginate: 10

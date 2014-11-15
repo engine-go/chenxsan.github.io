@@ -12,4 +12,4 @@ categories: jekyll
 
 ## 陈三的博客
 
-This one is only for demo.
+This one is only for demo. 原文请[点击](http://www.zfanw.com/blog/jekyll-table-of-content.html "Jekyll 生成目录")。
